@@ -8,6 +8,10 @@ Godot 4 的抖动相机代码，可以用于2D游戏中表示角色受到攻击�
 
 示例场景中`Button`节点的`pressed`信号便通过带参数的方式调用了`shake`函数。`F6`运行场景，点击`Shake`按钮即可观察到抖动效果。
 
+## Reference
+
+相机抖动代码原理部分参考：<https://jonny.morrill.me/en/blog/gamedev-how-to-implement-a-camera-shake-effect/>
+
 ## License
 
 MIT (c) xchrix
