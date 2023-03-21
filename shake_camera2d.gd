@@ -64,7 +64,7 @@ func _process(delta):
 
 
 ## 触发抖动的函数
-func shake(duration, frequency, amplitude):
+func shake(duration, frequency, amplitude) -> void:
 	# 如果正在抖动，则不打断正在进行的抖动
 	if( _timer > 0):
 		return
