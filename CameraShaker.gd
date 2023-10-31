@@ -1,4 +1,4 @@
-class_name ShakeACamera
+class_name CameraShaker
 extends Node
 ## A simple camera shake effect.
 ## 一个简单的相机抖动效果
@@ -94,10 +94,6 @@ func _process(delta):
 ## frequency: 抖动频率（Hz），shake frequency in Hz
 ## amplitude: 抖动幅度（像素），shake amplitude in pixels
 func shake(duration, frequency, amplitude) -> void:
-	# 如果正在抖动，则不打断正在进行的抖动
-	if( _timer > 0):
-		return
-
 	# 初始化
 	_duration = duration
 	_timer = duration

@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Main.gd" id="1_afwr2"]
 [ext_resource type="Texture2D" uid="uid://m8t27rt1x4fs" path="res://icon.svg" id="2_l5i7d"]
-[ext_resource type="Script" path="res://shake_a_camera.gd" id="3_sxiq4"]
+[ext_resource type="Script" path="res://CameraShaker.gd" id="3_npwu0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_g7lug"]
 texture = ExtResource("2_l5i7d")
@@ -39,7 +39,7 @@ layer_0/tile_data = PackedInt32Array(0, 1, 0, 1, 65537, 2, 65537, 1, 0, 65538, 1
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="ShakeACamera" type="Node" parent="Camera2D"]
-script = ExtResource("3_sxiq4")
+script = ExtResource("3_npwu0")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
